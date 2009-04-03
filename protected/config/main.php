@@ -33,12 +33,15 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
-		// uncomment the following to set up database
-		/*
-		'db'=>array(
-			'connectionString'=>'Your DSN',
+		'rbac' => array(
+			'class'=>'application.components.Rbac',
 		),
-		*/
+		'db'=>array(
+			'class'=>'CDbConnection',
+			'connectionString'=>'mysql:host=localhost;dbname=yii_groundwork',
+			'username'=>'yii_groundwork',
+			'password'=>'c32KmqjLhpVNJHqe',
+		),
 	),
 
 	// application-level parameters that can be accessed

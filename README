@@ -3,5 +3,9 @@ Made you look...No but really, I don't have anything to say yet besides the cred
 ==ToDo List==
 1. RBAC
 
+==Note==
+Login/Logout is done through the Site controller currently.
+I do not belive the login/logout code for the user controller is currently being used in any way.
+
 ==Credits==
 William Chambers
