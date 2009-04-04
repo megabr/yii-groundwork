@@ -16,11 +16,6 @@
     <td><?php echo CHtml::encode($user->username); ?>
 </td>
 </tr>
-<tr>
-	<th class="label"><?php echo CHtml::encode($user->getAttributeLabel('name')); ?>
-</th>
-    <td><?php echo CHtml::encode($user->profile->firstname); echo " "; echo CHtml::encode($user->profile->lastname); ?>
-</td>
 </tr>
 <tr>
 	<th class="label"><?php echo CHtml::encode($user->getAttributeLabel('password')); ?>
@@ -47,4 +42,3 @@
 </td>
 </tr>
 </table>
-<?php echo CHtml::encode($user->profile->firstname); ?>
