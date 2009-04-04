@@ -18,6 +18,7 @@
 	'items'=>array(
 		array('label'=>'Home', 'url'=>array('/site/index')),
 		array('label'=>'Contact', 'url'=>array('/site/contact')),
+		array('label'=>'User', 'url'=>array('/user/list')),
 		array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 		array('label'=>'Logout', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 	),
